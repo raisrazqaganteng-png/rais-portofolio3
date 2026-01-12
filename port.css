@@ -1,0 +1,273 @@
+body{
+background-color:
+#011d38;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  background: #022546;
+  padding: 10px;
+  position: fixed;
+  left: 0px;
+  z-index: 1000;
+  gap: 1350px;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+   background: 0px 0px 30px black;
+}
+
+.Naviget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: hsl(197, 100%, 50%);
+}
+
+nav .user-icon .foto{
+ width: 45px;
+  border-radius: 100%;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .user-icon .menu{
+ width: 45px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .user-icon{
+  display: flex;
+  gap: 20px;
+}
+
+h1{
+  color: rgb(25, 25, 194);
+  font-size: 40px;
+  margin: 70px;
+  padding: 70px;
+  overflow: hidden;
+  text-shadow: 0px 5px 12px #2419bb;
+}
+
+p{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: -145px;
+  padding: 70px;
+  overflow: hidden;
+}
+
+
+.main{
+  display: flex;
+}
+
+.kiri{
+  margin-top: 100px;
+}
+
+.kanan{
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+.foto1{
+  width: 400px;
+  box-shadow: 0px 3px 15px #000000;
+  mask-image: linear-gradient(to bottom, rgb(255, 0, 0) 70%, transparent 100%);
+}
+
+.facebook, .yt, .tt, .ig{
+  width: 65px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+.contact{
+  margin-left: 150px;
+  display: flex;
+  gap: 40px;
+  border-radius: 10px;
+}
+
+.p2{
+  text-align: center;
+   margin-top: 165px;
+ font-size: 30px;
+ text-shadow: 0px 0px 14px white;
+}
+
+.htm{
+  width: 180px;
+  border-bottom:100px;
+  margin-left: 80px;
+  z-index: 99;
+  position: absolute;
+  cursor: pointer;
+}
+
+.htmA{
+margin-top: -10px;
+position: absolute;
+left: 150px;
+}
+
+.isihtml{
+  width: 100%;
+  display: flex;
+  height: 180px;
+  gap: 100px;
+}
+
+.css{
+  width: 133px;
+  z-index: 99;
+  position: absolute;
+right: 150px;
+cursor: pointer;
+}
+
+.cssA{
+margin-top: -10px;
+position: absolute;
+right: 300px;
+}
+
+.isicss{
+  width: 100%;
+  display: flex;
+  height: 180px;
+  gap: 100px;
+}
+
+.js{
+  width: 180px;
+  border-bottom:100px;
+  margin-left: 80px;
+  z-index: 99;
+  position: absolute;
+  cursor: pointer;
+}
+
+.jsA{
+margin-top: -10px;
+position: absolute;
+left: 150px;
+}
+
+.isijs{
+  width: 100%;
+  display: flex;
+  height: 180px;
+  gap: 100px;
+}
+
+.htm{
+ transition: transform 0.6s;
+}
+
+.htm:hover{
+  transform: translateY(-15px);
+  z-index: 99;
+}
+
+.css{
+ transition: transform 0.6s;
+}
+
+.css:hover{
+  transform: translateY(-15px);
+  z-index: 99;
+}
+
+.js{
+transition: transform 0.6s;
+}
+
+.js:hover{
+  transform: translateY(-15px);
+  z-index: 99;
+}
+
+.my{
+  text-align: center;
+}
+
+.p3{
+  text-align: center;
+  margin-top: 165px;
+ font-size: 30px;
+ text-shadow: 0px 0px 14px white;
+ margin-right: 80px;
+}
+
+.mini{
+  margin-top: -50px;
+  color: whitesmoke;
+  position:absolute;
+}
+
+.kecil2{
+    margin-bottom: 150px;
+    right: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.fot3{
+  width: 30px;
+  margin-left: 50px;
+  display: grid;
+  align-items: center;
+
+}
+
+.shee{
+  width: 700px;
+  margin-top: -45px;
+  right: 50px;
+  border-radius: 10px;
+}
+
+.hee{
+  width: 700px;
+  display: flex;
+  margin-left: 1090px;
+  margin-top: -400px;
+  border-radius: 10px;
+}
+
+.hii{
+  align-items: center;
+  width: 700px;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 550px;
+}
